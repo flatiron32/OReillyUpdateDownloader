@@ -2,7 +2,6 @@ import sys
 from datetime import date
 from ftplib import FTP
 
-print(sys.argv)
 if len(sys.argv) < 2:
     print("No username provided")
     exit(-1)
